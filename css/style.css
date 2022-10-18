@@ -1,0 +1,35 @@
+:root{
+    --cor-primaria: #0A8C06;
+    --cor-secundaria: #044002;
+    --cor-neutra: #F2F2F2;
+    --cor-neutra-2: #EFF6E6;
+    --cor-neutra-3: #0D0D0D;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrapper-content{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    ". main ."
+    "footer footer footer";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 10% 80% 10%;
+}
+header{
+    grid-area: header;
+    background-color: var(--cor-primaria);
+}
+main{
+    grid-area: main;
+    background-color:var(--cor-neutra-2);
+}
+footer{
+    grid-area: footer;
+    background-color: var(--cor-primaria);
+}
