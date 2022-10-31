@@ -22,7 +22,7 @@ body{
 section{
     max-width: 80%;
     margin: 0 auto;
-    padding: 3% 5%;
+    padding: 5% 5%;
     /* border: 1px red solid; */
 }
 .container-sobre{ 
@@ -71,9 +71,19 @@ section{
     background-color: green;
 }
 .container-projeto{
-    background-color: aquamarine;
     width: 100%;
-    height: 700px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 10px  rgb(224, 223, 223);
+}
+.print-principal{
+    width: 50%;
+
+}
+.btn-conhecer-projeto{
+    display: block;
+    margin: 2% 0;
 }
 .container-galeria{
     display: flex;
