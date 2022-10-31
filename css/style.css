@@ -24,6 +24,13 @@ section{
     margin: 0 auto;
     padding: 5% 5%;
     /* border: 1px red solid; */
+    text-align: center;
+}
+article{
+    text-align: left;
+}
+section>article{
+    margin: 5% auto 0 auto;
 }
 .container-sobre{ 
     display: flex;
@@ -48,6 +55,10 @@ section{
     padding: 1%;
     text-align: center;
     box-shadow: 3px 3px 10px  rgb(224, 223, 223);
+    transition: .5s;
+}
+.item-card-sobre:hover{
+    transform: scale(1.05);
 }
 .img-perfil{
     max-width: 250px;
@@ -76,6 +87,7 @@ section{
     display: flex;
     align-items: center;
     box-shadow: 3px 3px 10px  rgb(224, 223, 223);
+    padding: 5%;
 }
 .print-principal{
     width: 50%;
@@ -84,15 +96,20 @@ section{
 .btn-conhecer-projeto{
     display: block;
     margin: 2% 0;
+    width: 25%;
 }
 .container-galeria{
     display: flex;
     width: 100%;
     height: 100%;
 }
-.area-galeria{
+.item-galeria{
     width: 100%;
     height: auto;
+    transition: .5s;
+}
+.item-galeria:hover{
+    transform: scale(1.6);
 }
 .print-galeria{
     width: 100%;
