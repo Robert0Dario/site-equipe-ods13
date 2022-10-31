@@ -69,7 +69,7 @@ h2{
 .qrcode-perfil{
     max-width: 100px;
 }
-.btn-perfil, .btn-conhecer-projeto{
+.btn-perfil, .btn-conhecer-projeto, .btn-enviar-contato{
     margin: 5%;
     width: 100%;
     height: 45px;
@@ -78,7 +78,7 @@ h2{
     border: 1px solid rgb(224, 223, 223);
     transition: .5s;
 }
-.btn-perfil:hover, .btn-conhecer-projeto:hover{
+.btn-perfil:hover, .btn-conhecer-projeto:hover, .btn-enviar-contato:hover{
     background-color: #0a8c06;
     color: #fff;
 }
@@ -123,14 +123,28 @@ h2{
 }
 iframe{
     display: block;
+    height: 100%;
 }
 .form-contato{
     width: 100%;
     margin: 0 5%;
     display: flex;
     flex-direction: column;
-    background-color: #0a8c06;
+    /* background-color: #0a8c06; */
 }
-input{
+input, textarea{
     width: 100%;
+    height: 15%;
+    font-size: 1.15rem;
+    padding: 3%;
+    margin: 1%;
+    outline: 0;
+}
+textarea{
+    resize: none;
+    height: 60%;
+}
+.btn-enviar-contato{
+    padding: 0;
+    margin: 1%;
 }
