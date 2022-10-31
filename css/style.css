@@ -28,6 +28,7 @@ section{
 }
 article{
     text-align: left;
+    margin: 5% auto 0 auto;
 }
 h2{
     margin: 5% auto;
@@ -67,8 +68,10 @@ h2{
     border-radius: 100%;
 }
 .qrcode-perfil{
-    max-width: 100px;
+    width: 100px;
+    transition: .5s;
 }
+
 .btn-perfil, .btn-conhecer-projeto, .btn-enviar-contato{
     margin: 5%;
     width: 100%;
@@ -112,6 +115,7 @@ h2{
 }
 .item-galeria:hover{
     transform: scale(1.6);
+    filter: drop-shadow(5px 5px 1px rgb(224, 223, 223));
 }
 .print-galeria{
     width: 100%;
