@@ -23,11 +23,13 @@ ul{
     justify-content: space-around;
     align-items: center;
 }
-.carousel img{
-    height: 600px;
+.img-carrosel{
+    height: 800px;
+    background-size:contain;
+    object-fit: cover;
 }
 .carousel{
-    max-height: 600px;
+    max-height: 800px;
 }
 section{
     max-width: 80%;
