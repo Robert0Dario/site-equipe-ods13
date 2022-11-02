@@ -11,7 +11,8 @@ body{
     background-color: white;
 }
 a{
-    color: none;
+    text-decoration: none;
+    color: #000;
 }
 nav{
     width: 100%;
@@ -41,7 +42,7 @@ nav a{
     border-radius: 1%;
 }
 nav a:hover{
-    background-color: #0a8c062d;
+    background-color: #0a8c06b6;
     color: #fff;
 }
 .img-carrosel{
@@ -184,7 +185,7 @@ textarea{
     height: 60%;
 }
 .btn-enviar-contato{
-    padding: 0;
+    padding: 1%;
     margin: 1%;
     border: 1px solid #0a8c062d;
 }
