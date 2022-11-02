@@ -10,26 +10,47 @@ body{
     /* background-color: rgb(242, 243, 242); */
     background-color: white;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 5%;
+a{
+    color: none;
 }
-
-ul{
+nav{
+    width: 100%;
+    background-color: #0a8c0698;
+    color: #fff;
     display: flex;
-    width: 500px;
-    justify-content: space-around;
+    padding: 1% 5%;
+    justify-content: space-between;
+    backdrop-filter: blur( 13.5px );
     align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+nav div+div{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 1%;
+    padding: 1%;
+    width: 100px;
+    text-align: center;
+    transition: .5s;
+    border-radius: 1%;
+}
+nav a:hover{
+    background-color: #0a8c062d;
+    color: #fff;
 }
 .img-carrosel{
-    height: 800px;
+    height: 900px;
     background-size:contain;
     object-fit: cover;
 }
 .carousel{
-    max-height: 800px;
+    max-height: 900px;
 }
 section{
     max-width: 80%;
@@ -40,10 +61,10 @@ section{
 }
 article{
     text-align: left;
-    margin: 5% auto 0 auto;
+    margin: 2% auto 0 auto;
 }
 h2{
-    margin: 5% auto;
+    margin: 2% auto;
 }
 .container-sobre{ 
     display: flex;
@@ -165,6 +186,7 @@ textarea{
 .btn-enviar-contato{
     padding: 0;
     margin: 1%;
+    border: 1px solid #0a8c062d;
 }
 .btn-linkedin:hover{
     background-color: #0077b5;
