@@ -9,6 +9,13 @@
 body{
     background-color: white;
 }
+body::-webkit-scrollbar {
+    background: rgb(255, 255, 255); 
+  }
+body::-webkit-scrollbar-thumb {
+    background: #0a8c062d; 
+    border-radius: 10px;
+  }
 a{
     text-decoration: none;
     color: #000;
@@ -205,7 +212,7 @@ textarea{
 footer{
     width: 100%;
     height: 75px;
-    background-color: #0a8c06;
+    background-color: #0a8c0679;
     color: #fff;
     text-align: center;
     padding: 2%;
