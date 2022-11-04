@@ -46,11 +46,10 @@ nav a{
     width: 100px;
     text-align: center;
     transition: .5s;
-    border-radius: 1%;
 
 }
 nav a:hover{
-    background-color: #0a8c0679;
+    background-color: #b7c7b7b7;
     color: #fff;
 }
 .logo-principal-equipe{
