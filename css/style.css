@@ -23,7 +23,7 @@ a{
 }
 nav{
     width: 100%;
-    background-color: #0a8c0646;
+    background-color: #0a8c0613;
     color: #fff;
     display: flex;
     padding: 1% 5%;
@@ -33,6 +33,7 @@ nav{
     position: fixed;
     z-index: 2;
     box-shadow: 1px 2px 3px #0a8c062d;
+    border-bottom: 1px solid #0a8c06;
 }
 nav div+div{
     width: 400px;
@@ -41,7 +42,7 @@ nav div+div{
 }
 nav a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin: 1%;
     padding: 1%;
     width: 100px;
@@ -57,13 +58,17 @@ nav a:hover{
     max-height: 50px;
 }
 .img-carrosel{
-    height: 900px;
+    height: 700px;
     background-size:contain;
     object-fit: cover;
+    margin-top: 4.7%;
 }
 .carousel{
     width: 100%;
-    max-height: 900px;
+    height: 700px;
+}
+.carousel-indicators{
+    display: none;
 }
 section{
     max-width: 80%;
