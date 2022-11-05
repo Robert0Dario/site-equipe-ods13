@@ -236,6 +236,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         position: absolute;
+        padding: 5% 5%;
     }
     nav div+div{
         flex-direction: column;
@@ -247,6 +248,7 @@ footer{
     }
     .item-card-sobre{
         margin: 2% 0;
+     
     }
     .qrcode-perfil{
         display: none;
