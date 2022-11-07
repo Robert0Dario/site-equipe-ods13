@@ -170,11 +170,11 @@ h2{
     transition: .5s;
     display: flex;
     justify-content: center;
-    transform: skewY(-2deg) rotateY(25deg);
+  
     /* filter: drop-shadow(5px 5px 1px rgb(224, 223, 223)); */
 }
 .item-galeria:hover{
-    transform: skewY(-2deg) rotateY(25deg) scale(1.1);
+    transform: scale(1.1);
 }
 .print-galeria{
     max-width: 70%;
