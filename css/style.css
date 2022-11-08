@@ -3,7 +3,7 @@
     margin:0;
     box-sizing: border-box;
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
     font-family: 'Varela Round', sans-serif;
 }
@@ -137,6 +137,9 @@ h2{
     color: #fff;
     border: none;
 }
+.container-projeto p{
+    text-align: justify;
+}
 .container-projeto{
     width: 100%;
     height: auto;
@@ -170,8 +173,7 @@ h2{
     transition: .5s;
     display: flex;
     justify-content: center;
-  
-    /* filter: drop-shadow(5px 5px 1px rgb(224, 223, 223)); */
+    filter: drop-shadow(5px 5px 1px rgb(224, 223, 223));
 }
 .item-galeria:hover{
     transform: scale(1.1);
@@ -242,6 +244,9 @@ footer{
         justify-content: center;
         position: absolute;
         padding: 5% 5%;
+    }
+    nav a{
+        font-weight: bold;
     }
     nav div+div{
         flex-direction: column;
